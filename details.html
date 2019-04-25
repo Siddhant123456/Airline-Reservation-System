@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Passenger Details</title>
+</head>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="Myfirstproject.css">
+      	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Logo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Myfirstproject.html">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Flight status</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="#">International Visa Information</a>
+      </li>
+        
+      <li class="nav-item">
+        <a class="nav-link" href="#">Our team</a>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+    <div class="container">
+  <form action="details.php" method="POST">
+      <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" name="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name ="email">
+      </div>
+      <div class="form-group">
+        <label for = "password">Password</label>
+        <input type="password" class = "form-control" name="password">
+      </div>
+      
+      <button type="submit" class="btn btn-info" name = "button-login">Submit</button>
+      
+  </form>
+
+</body>
+</html>
+
+
